@@ -5,8 +5,7 @@ mkdir -p  $pathresult
 	for var in  $pathcheck/*
 	  do	
 		echo  "file name - " $var
-		cd $pathresult
-		md5sum $pathcheck/$var >> $pathcheck-md5sum.txt
+		md5sum $pathcheck/$var >> $pathresult/$pathcheck-md5sum.txt
 	  done
 
 
