@@ -1,7 +1,7 @@
 #!/bin/bash
 read -p "Enter path for control: "  pathcheck
 read -p "enter pat for result file: " pathresult 
-mkdir -p  $pathresult
+#mkdir -p  $pathresult
 #cd $pathresult 
 	for var in  $pathcheck/*
 	  do	
